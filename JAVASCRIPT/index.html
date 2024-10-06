@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Curso de JAVASCRIPT</h1>
+    <div>
+      <h2>Ejercicio 1:</h2>
+        <p id="p">Este es un parrafo.</p>
+        <p id="p">Este es un parrafo.</p>
+        <p id="p">Este es un parrafo.</p>
+        <button id="boton">Cambiar estilo de parrafos.</button>
+    </div>
+    <h2></h2>
+    
+    <div>
+      <h2>Ejercicio 2: Formulario con alerta</h2>
+        <form>
+          <label>Ingrese un texto:</label>
+          <input id="text" type="text"/>
+          <button id="alerta">Mostrar alerta</button>
+        </form>
+    </div>
+
+    <h2></h2>
+    <hr>
+
+    <div>
+      <h2>Ejercicio 1: Lista con elementos</h2>
+        <ul id="lista">
+          <li id="e1">Elemento 1</li>
+          <li id="e2">Elemento 2</li>
+          <li id="e3">Elemento 3</li>
+          <li id="e4">Elemento 4</li>
+        </ul>
+    </div>
+
+    <div>
+      <h2>Ejercicio 2: Campo de texto y botones</h2>
+        <form>
+          <input type="text" id = "campotexto" placeholder="Ingresa algo:" />
+          <button type="button" id = "deshabilitar">Deshabilitar campo</button>
+          <button type="button" id = "habilitar">Habilitar campo</button>
+        </form>
+    </div>
+
+    <h2></h2>
+    <hr>
+
+    <div>
+      <h3>LocalStorage </h3>
+          <form id="formCorreo">
+              <label>Correo Electrónico: </label>
+              <input type="email" id="correo" placeholder="example@gmail.com" />
+              <button type="submit">Guardar correo</button>
+          </form>
+      <p id="correoGuardado">Correo guardado: </p>
+      <button id="eliminarCorreo" style="display: none;">Eliminar correo guardado</button>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
