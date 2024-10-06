@@ -9,4 +9,5 @@
   <li>Introducción al DOM</li>
   <li>Eventos en DOM</li>
   <li>LocalStrorage</li>
+  <p></p>
 <p>*****Se deben DESCOMENTAR los ejercicios para su funcionamiento.*****</p>
